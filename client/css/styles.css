@@ -1,0 +1,97 @@
+
+body {
+  background-color: black;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+*{
+  font-size:20px
+  }
+
+.item { 
+  height:44px;
+  width:100%;
+  clear:both;
+  display: flex;
+  justify-content: center
+}
+
+.item .name{
+  width:300px
+}
+
+.item .action{
+width:100px
+}
+
+.item .delete{
+width:100px
+}
+
+.item div{
+float:left
+}
+
+.home{
+margin-top:40px
+}
+
+.name.completed-task{
+text-decoration:line-through
+}
+
+.list-group-item {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  width:530px;
+  margin-bottom: 10px;
+}
+
+.list-users {
+  padding-left: 30%;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top:50px;
+}
+.btn-xs, .btn-sm {
+  width: 120px;
+  height: 45px;
+  font-size: 22px;
+}
+
+.placetask{
+  margin-left: 44px;
+  height: 45px
+}
+
+.btninside {
+  margin-top: -45px;
+}
+.edit {
+  margin-right:20px;
+}
+
+input {
+  border-radius: 5px;
+}
+
+h2 {
+  padding-left: 104px;
+}
+
+p {
+  margin: 0px 140px 10px;
+}
+}
